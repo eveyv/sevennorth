@@ -18,7 +18,7 @@ const Capabilities = () =>
       </div>
       <ul className="actions">
         <li>
-          <Link className="button" to="/generic">
+          <Link className="button" to="http://everettyeaw.com">
             Learn more
           </Link>
         </li>

@@ -8,36 +8,7 @@ import Feature from './Feature';
 
 const Features = () => {
   const FEATURES = [
-    {
-      href: '/#',
-      image: pic1,
-      heading: 'Sed ipsum dolor',
-      description: 'Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus.',
-      to: {
-        href: '/generic',
-        label: 'Learn more',
-      },
-    },
-    {
-      href: '/#',
-      image: pic2,
-      heading: 'Feugiat consequat',
-      description: 'Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus.',
-      to: {
-        href: '/generic',
-        label: 'Learn more',
-      },
-    },
-    {
-      href: '/#',
-      image: pic3,
-      heading: 'Ultricies aliquam',
-      description: 'Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus.',
-      to: {
-        href: '/generic',
-        label: 'Learn more',
-      },
-    },
+    //add objects here
   ];
 
   const [features] = React.useState(FEATURES);
