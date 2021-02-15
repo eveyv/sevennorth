@@ -4,7 +4,7 @@ import Scroll from '../common/Scroll';
 const Introduction = () =>
   <section id="intro" className="wrapper style1 fullscreen fade-up">
     <div className="inner">
-      <h1>Seven North Website Services</h1>
+      <h1>Seven North Website Design</h1>
       <p>
         Website creation, design, and maintenence services located in the Maine Highlands.
       </p>

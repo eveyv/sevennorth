@@ -6,12 +6,12 @@ const CapabilityList = () => {
   const CAPABILITIES = [
     {
       heading: 'Responsive Website Design',
-      description: 'Simple, streamlined websites built responsively so that your customers can quickly and easily access what they need to know before choosing your company.',
+      description: 'Simple, streamlined websites built responsively so that your customers can quickly and easily access what they need to know before choosing your service.',
       iconClass: 'fa-code',
     },
     {
-      heading: 'Website Hosting Services',
-      description: 'We can host your website based on a plan that makes sense for your site\'s specific needs.',
+      heading: 'Website Hosting Solutions',
+      description: 'We can set up and organize your hosting service to help make sure you aren\'t over-paying for what you need.',
       iconClass: 'fa-desktop',
     },
     {
@@ -21,8 +21,8 @@ const CapabilityList = () => {
     },
     {
       heading: 'SEO Optimization',
-      description: 'We can work with you to find the best package to fit your businesses\'s unique needs..',
-      iconClass: 'fa-desktop',
+      description: 'We can work with you to find the best options to fit the unique needs of your business.',
+      iconClass: 'fa-code',
     },
     {
       heading: 'Custom Web and Application Services',
