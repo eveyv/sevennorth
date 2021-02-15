@@ -6,7 +6,7 @@ const Footer = () => (
   <footer id="footer" className="wrapper style1-alt">
     <div className="inner">
       <ul className="menu">
-        <li>&copy; Seven North Website Services.</li>
+        <li>&copy; Seven North Website Design.</li>
       </ul>
     </div>
   </footer>

@@ -16,13 +16,6 @@ const Capabilities = () =>
       <div className="features">
         <CapabilityList />
       </div>
-      <ul className="actions">
-        <li>
-          <Link className="button" to="http://everettyeaw.com">
-            Learn more
-          </Link>
-        </li>
-      </ul>
     </div>
   </section>
 
