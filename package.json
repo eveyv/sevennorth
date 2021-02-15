@@ -4,11 +4,11 @@
   "description": "Gatsby.js V2 starter template based on Hyperspace by HTML5 UP",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/anubhavsrivastava/gatsby-starter-hyperspace.git"
+    "url": "git+https://github.com/eveyv/sevennorth.git"
   },
   "author": {
-    "name": "Anubhav Srivastava",
-    "email": "anubhav.srivastava00@gmail.com"
+    "name": "Everett Yeaw",
+    "email": "everett@everettyeaw.com"
   },
   "dependencies": {
     "gatsby": "^2.20.29",
@@ -26,9 +26,9 @@
   "scripts": {
     "develop": "gatsby develop",
     "build": "npm run clean && gatsby build",
+    "heroku-postbuild": "gatsby build",
     "deploy": "npm run clean && gatsby build --prefix-paths && gh-pages -d public",
-    "serve": "gatsby serve",
-    "start": "npm run build",
+    "start": "gatsby serve",
     "clean": "rimraf .cache public",
     "format": "prettier --write '**/*.js'",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -39,13 +39,7 @@
     "rimraf": "^2.6.3"
   },
   "keywords": [
-    "gatsby",
-    "gatsby-starter",
-    "gatsby-starter-hyperspace"
+    "gatsby"
   ],
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/anubhavsrivastava/gatsby-starter-hyperspace/issues"
-  },
-  "homepage": "https://github.com/anubhavsrivastava/gatsby-starter-hyperspace#readme"
+  "license": "MIT"
 }
