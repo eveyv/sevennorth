@@ -26,7 +26,7 @@ const CapabilityList = () => {
     },
     {
       heading: 'Custom Web and Application Services',
-      description: 'I can help implement new technology for your business or work with you to create a custom application suited to your needs.',
+      description: 'We can help implement new technology for your business or work with you to create a custom application suited to your needs.',
       iconClass: 'fa-chain',
     },
     {
